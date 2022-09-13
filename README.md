@@ -18,7 +18,7 @@ In this project, I have used [deep learning technique] for disease segmentation
 1. Image Preparation: [Generated_Masks_from_VIA_Annotations.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/Generated_Masks_from_VIA_Annotations.ipynb) to generate annotation json file for five different periodontal lesions 
 
 
-## Screenshots
+## :notebook_with_decorative_cover: Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
