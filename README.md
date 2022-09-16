@@ -1,12 +1,13 @@
 
-# :bell: Dental-Lesion-Segmentation
+# :bell: Mask-RCNN Based Periodontitis Detection
 
 - This repository represents "Dental Lesion Detection Using Deep learning
 - With the help of this project, we can detect dental lesions using periapical radiographs
 
 ### :page_with_curl: Description
 
-In this project, I have used [deep learning technique] for disease segmentation
+- In this project, I have used [deep learning technique] for disease segmentation. 
+- The code is executed on Google Colab
 
 
 ### :computer: Dataset
@@ -29,17 +30,18 @@ In this project, I have used [deep learning technique] for disease segmentation
 
 
 ## Installation
-
-Install my-project with npm
+To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorflow(1.14.0), keras(2.0.8) and h5py(2.10.0)
 
 ```bash
-  npm install my-project
-  cd my-project
+!apt-get install python3.5
+!pip install tensorflow==1.14.0
+!pip install keras==2.0.8
+!pip install h5py==2.10.0
 ```
     
 ## Helpful Resources
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Practical Implementation Guide](https://www.youtube.com/watch?v=1u-dm5JMH1Q&t=2s&ab_channel=CodeWithAarohi)
+ - [Tune Hyperparameters](https://medium.com/analytics-vidhya/taming-the-hyper-parameters-of-mask-rcnn-3742cb3f0e1b)
+ - [Helpful Blog](https://towardsdatascience.com/faster-r-cnn-object-detection-implemented-by-keras-for-custom-data-from-googles-open-images-125f62b9141a)
 
