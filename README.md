@@ -22,7 +22,6 @@
 
 ![Test Image](https://user-images.githubusercontent.com/66737416/191308274-a11c0b3d-f896-4549-8cf3-9ca6d812941a.JPG)
 
-
 ## Installation
 To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorflow(1.14.0), keras(2.0.8) and h5py(2.10.0)
 
@@ -60,8 +59,8 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 │   ├── saved model.h5               
 
 ├── mrcnn                                     # model folder
-├── test                                      # test folder
-│   ├── images
+├── images                                      # test folder
+│   ├── test image
 
 ├── 
 ├── dataset.ipynb                                # dataset configuration
