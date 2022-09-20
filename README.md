@@ -40,7 +40,7 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 4. [evaluate_model.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/evaluate_model.ipynb)to evaluate rhe performance of mrcnn.
 5. [Testing RCNN.ipynb] to test the performance of the model on test images.
 
-## :pencil2: Folder/File Structure
+## Folder/File Structure
 
 ```bash
 
@@ -71,9 +71,29 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 
 └── README.md                            
 ```
+
+
+## Json Annotation Format
+
+```bash
+{ 'filename': '<image_name>.jpg',
+           'regions': {
+               '0': {
+                   'region_attributes': {},
+                   'shape_attributes': {
+                       'all_points_x': [...],
+                       'all_points_y': [...],
+                       'name': <class_name>}},
+               ... more regions ...
+           },
+           'size': <image_size>
+}
+```
+
 ## :notebook_with_decorative_cover: RCNN Result
 
 ![RCNN on Test Image](https://user-images.githubusercontent.com/66737416/191308581-1bd1b9b6-2273-4f0c-ada1-885b3d3a8b1a.png)
+
 
     
 ## Helpful Resources
