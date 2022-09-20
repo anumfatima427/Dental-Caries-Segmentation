@@ -20,7 +20,7 @@
 - The dataset contains 516 images of periodontal lesions i.e., periodontal lesions i.e., 'PrimaryEndodontic', 'PrimaryEndowithSecondaryPerio', 'PrimaryPeriodontal', 'PrimaryPeriowithSecondaryEndo', 'TrueCombined'. 
 - The annotations for these images is generated using VIA Image Annotators and are saved in json format in via_annotation.json file. 
 
-![Dataset with Mask Images](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Test Image](https://user-images.githubusercontent.com/66737416/191308274-a11c0b3d-f896-4549-8cf3-9ca6d812941a.JPG)
 
 
 ## Installation
@@ -72,9 +72,9 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 
 └── README.md                            
 ```
-## :notebook_with_decorative_cover: Screenshots
+## :notebook_with_decorative_cover: RCNN Result
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![RCNN on Test Image](https://user-images.githubusercontent.com/66737416/191308581-1bd1b9b6-2273-4f0c-ada1-885b3d3a8b1a.png)
 
     
 ## Helpful Resources
