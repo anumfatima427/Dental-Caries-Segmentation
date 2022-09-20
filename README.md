@@ -1,5 +1,5 @@
 
-# :bell: Mask-RCNN Based Periodontitis Detection
+# :bell: Deep Learning-Based Multiclass Instance Segmentation for Dental Lesions Using M-RCNN
 
 - This repository represents "Dental Lesion Detection Using Deep learning.
 - With the help of this project, we can detect dental lesions using periapical radiographs.
