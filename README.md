@@ -18,7 +18,7 @@
 ### :computer: Dataset
 [Periapical Radiograph Dataset with Annotations](https://drive.google.com/drive/folders/1mUb_U4cJA_UNzXO6tySE9YlKMM2DV13Q)
 - The dataset contains 516 images of periodontal lesions i.e., periodontal lesions i.e., 'PrimaryEndodontic', 'PrimaryEndowithSecondaryPerio', 'PrimaryPeriodontal', 'PrimaryPeriowithSecondaryEndo', 'TrueCombined'. 
-- The annotations for these images is generated using VIA Image Annotators and are saved in json format in via_annotation.json file. 
+- The annotations for these images is generated using VIA Image Annotators and are saved in json format in via_annotation.json file. To have a better view of json files, click [here](http://jsonviewer.stack.hu/)
 
 ![Test Image](https://user-images.githubusercontent.com/66737416/191308274-a11c0b3d-f896-4549-8cf3-9ca6d812941a.JPG)
 
@@ -101,4 +101,3 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
  - [Tune Hyperparameters](https://medium.com/analytics-vidhya/taming-the-hyper-parameters-of-mask-rcnn-3742cb3f0e1b)
  - [Helpful Blog](https://towardsdatascience.com/faster-r-cnn-object-detection-implemented-by-keras-for-custom-data-from-googles-open-images-125f62b9141a) to learn how r-cnn works!
  - [MRCNN code for video/image object detection](https://github.com/quanghuy0497/Mask_R-CNN)
-
