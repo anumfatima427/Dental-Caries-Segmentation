@@ -16,7 +16,7 @@
 
 
 ### :computer: Dataset
-[Periapical Radiograph Dataset with Annotations](https://drive.google.com/drive/folders/1zjl4sF3-s8z1yRnSDYdVLXaVDOyPwdvm?usp=sharing)
+[Periapical Radiograph Dataset with Annotations](https://drive.google.com/drive/folders/1mUb_U4cJA_UNzXO6tySE9YlKMM2DV13Q)
 - The dataset contains 516 images of periodontal lesions i.e., periodontal lesions i.e., 'PrimaryEndodontic', 'PrimaryEndowithSecondaryPerio', 'PrimaryPeriodontal', 'PrimaryPeriowithSecondaryEndo', 'TrueCombined'. 
 - The annotations for these images is generated using VIA Image Annotators and are saved in json format in via_annotation.json file. 
 
