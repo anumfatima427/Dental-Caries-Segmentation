@@ -90,8 +90,8 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 }
 ```
 
-## :notebook_with_decorative_cover: RCNN Result
-
+## :notebook_with_decorative_cover: M-RCNN Result
+M-RCNN
 ![RCNN on Test Image](https://user-images.githubusercontent.com/66737416/191308581-1bd1b9b6-2273-4f0c-ada1-885b3d3a8b1a.png)
 
 
