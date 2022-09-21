@@ -37,7 +37,7 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 
 1. [dataset.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/dataset.ipynb) to load the dataset comprising images of five different periodontal lesions i.e., 'PrimaryEndodontic', 'PrimaryEndowithSecondaryPerio', 'PrimaryPeriodontal', 'PrimaryPeriowithSecondaryEndo', 'TrueCombined'.
 2. [Generated_Masks_from_VIA_Annotations.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/Generated_Masks_from_VIA_Annotations.ipynb) to generate annotations using via_annotation.json file for train and val folder for five different periodontal lesions.
-3. [train_model(5_cross_validation).py](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/train_model(5_cross_validation).py) to train the model using pre-trained model and save the weights in logs folder.
+3. [train_model(5_cross_validation).py](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/train_model(5_cross_validation).py) to train the model using pre-trained model and save the weights in logs folder. This model was trained was 7 epochs and weights are stored [here](https://drive.google.com/drive/folders/1-B6HoGZ0Rl27k77EUWme7OD0ufpttniU)
 4. [evaluate_model.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/evaluate_model.ipynb)to evaluate rhe performance of mrcnn.
 5. [test_model.py](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/test_model.py) to test the performance of the model on test images.
 
