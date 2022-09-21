@@ -6,13 +6,14 @@
 
 ### :page_with_curl: Description
 
-- In this project, I have used [deep learning technique] for dental disease segmentation. 
+- In this project, I have used M-RCNN for multiclass instance segmentation. 
 - The code is executed on Google Colab and the dataset and files are saved on Google Drive.
 
 
 ### :pencil: Requirements
 - Python
 - Tensorflow
+- Keras
 
 
 ### :computer: Dataset
@@ -28,17 +29,17 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 ```bash
 !apt-get install python3.5
 !pip install tensorflow==1.14.0
-!pip install keras==2.0.8
+!pip install keras==2.2.5
 !pip install h5py==2.10.0
 ```
 
 ## :pencil2: Notebook Organization 
 
 1. [dataset.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/dataset.ipynb) to load the dataset comprising images of five different periodontal lesions i.e., 'PrimaryEndodontic', 'PrimaryEndowithSecondaryPerio', 'PrimaryPeriodontal', 'PrimaryPeriowithSecondaryEndo', 'TrueCombined'.
-2. [generate_annotations.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/generate_annotations.ipynb) to generate annotations using via_annotation.json file for train and val folder for five different periodontal lesions.
-3. [train_model.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/train_model.ipynb) to train the model using pre-trained model and save the weights in logs folder.
+2. [Generated_Masks_from_VIA_Annotations.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/Generated_Masks_from_VIA_Annotations.ipynb) to generate annotations using via_annotation.json file for train and val folder for five different periodontal lesions.
+3. [train_model(5_cross_validation).py](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/train_model(5_cross_validation).py) to train the model using pre-trained model and save the weights in logs folder.
 4. [evaluate_model.ipynb](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/evaluate_model.ipynb)to evaluate rhe performance of mrcnn.
-5. [Testing RCNN.ipynb] to test the performance of the model on test images.
+5. [test_model.py](https://github.com/anumfatima427/Dental-Caries-Segmentation/blob/main/test_model.py) to test the performance of the model on test images.
 
 ## Folder/File Structure
 
@@ -64,10 +65,10 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 
 ├── 
 ├── dataset.ipynb                                # dataset configuration
-├── generate_annotations.ipynb                   #generate annotations using json file and images
+├── Generated_Masks_from_VIA_Annotations.ipynb.ipynb    #generate annotations using json file and images
 ├── evaluation.ipynb                             # weight evaluation
-├── train_model.ipynb                            # training the model using pretrained weights
-├── testing_model.ipynb                          #test to see model's performance on dental radiographs
+├── train_model(5-cross validation).py           # training the model using pretrained weights
+├── test_model.py                               #test to see model's performance on dental radiographs
 
 └── README.md                            
 ```
