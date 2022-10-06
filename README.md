@@ -19,7 +19,7 @@
 ### :computer: Dataset
 [Periapical Radiograph Dataset with Annotations](https://drive.google.com/drive/folders/1mUb_U4cJA_UNzXO6tySE9YlKMM2DV13Q)
 - The dataset contains 516 images of periodontal lesions i.e., periodontal lesions i.e., 'PrimaryEndodontic', 'PrimaryEndowithSecondaryPerio', 'PrimaryPeriodontal', 'PrimaryPeriowithSecondaryEndo', 'TrueCombined'. 
-- The annotations for these images is generated using VIA Image Annotators and are saved in json format in via_annotation.json file. To have a better view of json files, click [here](http://jsonviewer.stack.hu/)
+- The annotations for these images is generated using VIA Image Annotators and are saved in json format in via_annotation.json file. To view json files, click [here](http://jsonviewer.stack.hu/)
 
 ![Test Image](https://user-images.githubusercontent.com/66737416/191308274-a11c0b3d-f896-4549-8cf3-9ca6d812941a.JPG)
 
@@ -93,7 +93,8 @@ To run Mask-RCNN on Google Colab, you will need python version 3.5 with tensorfl
 
 ## :notebook_with_decorative_cover: M-RCNN Result
 
-![Test image 1 result](https://user-images.githubusercontent.com/66737416/191317136-4c0f00fd-bec5-455b-9dc3-2f23a5c3296c.png)
+
+![Review Paper (17)](https://user-images.githubusercontent.com/66737416/194242794-1fd6f290-1802-4202-a4c5-60c1b39f82d1.png)
 
 
 ## Helpful Resources
